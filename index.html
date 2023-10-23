@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        background-color: #3e4042;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }  
+    .container{
+        height: 600px;
+        width: 400px;
+        background-color: #262729;
+        border-radius: 10px;
+        border:  #757b85 solid 2px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    input {
+        width: 80%; /* Adjust the width as needed */
+        margin: 8px; /* Adjust the margin as needed */
+        padding: 10px; /* Adjust the padding as needed */
+        border: none;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+    }
+
+    .sign-up {
+        background-color: #057cf2;
+        width: 86%;
+        margin: 10px;
+        border-radius: 10px;
+        height: 50px;
+        color: white;
+    }
+
+    .text-lightgray {
+        color: lightgray;
+    }
+    hr {
+        width: 80%;
+    }
+    h2 {
+        color: white;
+    }
+
+    .twitter {
+        width: 85%;
+        margin: 5px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #262729 ;
+        border: solid #757b85 2px;
+        color: lightgrey;
+    }
+
+    .facebook {
+        width: 85%;
+        margin: 5px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #262729 ;
+        color: #4267B2;
+        border: solid #4267B2 2px;
+    }
+
+    .github {
+        width: 85%;
+        margin: 5px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #262729 ;
+        border: solid #757b85 2px;
+        color: lightgrey;
+    }
+
+    </style>
+
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up for free</h1>
+        <input class="email" type="text" placeholder="Email address">
+        <input class="password" type="text" placeholder="Password">
+        <button type="button" class="sign-up">Sign up</button>
+        <p class="text-lightgray d-none d-md-block">By clicking Sign up, you agree to the terms of use.</p>
+        <hr>
+        <h2>Or use a third-party</h2>
+        <button class="twitter">Sign up with Twitter</button>
+        <button class="facebook">Sign up with Facebook</button>
+        <button class="github">Sign up with GitHub</button>
+    </div>
+
+</body>
+</html>
